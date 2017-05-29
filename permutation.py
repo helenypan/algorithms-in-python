@@ -1,3 +1,7 @@
+'''
+This script is to find all the permutations of the given string.
+'''
+
 def permutation(str):
 	exe_permutation(str, "")
 

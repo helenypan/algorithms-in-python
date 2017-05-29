@@ -1,3 +1,9 @@
+'''
+This script is another way to print all Fibonacci numbers from 0 to n, 
+this time it is 0(n) time, this technique called memoization, is a very common one to optimise 
+exponential time recursive algorithms.
+'''
+
 def fib(n, memo):
 	if n <= 0:
 		return 0

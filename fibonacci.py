@@ -1,3 +1,8 @@
+'''
+This script is to print all Fibonacci numbers from 0 to n.
+this methond takes O(2**n) time
+'''
+
 def fib(n):
 	if n <= 0:
 		return 0
