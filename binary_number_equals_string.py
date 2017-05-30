@@ -26,5 +26,18 @@ def convert_from_base(number, base):
 
 def digit_to_value(c):
 	# TODO
-	return False
+	if c.lower() == "a":
+		return 10
+	elif c.lower() == "b":
+		return 11
+	elif c.lower() == "c":
+		return 12
+	elif c.lower() == "d":
+		return 13
+	elif c.lower() == "e":
+		return 14
+	elif c.lower() == "f":
+		return 15
+	else
+		return int(c)
 
