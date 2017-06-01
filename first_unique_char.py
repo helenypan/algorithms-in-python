@@ -18,7 +18,10 @@ def first_unique(string):
 				return string[i]
 		return None
 
-def test_answer():
+def test_1():
 	assert first_unique("s") == "s"
 	assert first_unique("aabbcdd") == "c"
 
+def test_2():
+	assert first_unique("a") == "s"
+	assert first_unique("aabbedd") == "c"
